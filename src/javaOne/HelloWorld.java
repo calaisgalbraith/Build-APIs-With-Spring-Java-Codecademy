@@ -1,4 +1,4 @@
-package exercises;
+package javaOne;
 
 public class HelloWorld {
     public static void main(String[] args) {
