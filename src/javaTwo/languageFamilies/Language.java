@@ -27,7 +27,10 @@ public class Language {
 
     public static void main(String[] args) {
         Language english = new Language("English", 400000000, "United States", "subject-verb-object");
-
         english.getInfo();
+
+        Language chontal = new Mayan("Chontal", 36810);
+        chontal.getInfo();
+
     }
 }
