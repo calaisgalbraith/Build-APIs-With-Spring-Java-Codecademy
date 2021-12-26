@@ -32,5 +32,10 @@ public class Language {
         Language chontal = new Mayan("Chontal", 36810);
         chontal.getInfo();
 
+        Language mandarinChinese = new SinoTibetan("Mandarin Chinese",1117000);
+        mandarinChinese.getInfo();
+
+        Language burmese = new SinoTibetan("Burmese",33000000);
+        burmese.getInfo();
     }
 }
